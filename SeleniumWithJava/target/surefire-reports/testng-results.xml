@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10306" started-at="2021-01-27T06:39:57 UTC" finished-at="2021-01-27T06:40:07 UTC">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10306" started-at="2021-01-27T06:39:57 UTC" finished-at="2021-01-27T06:40:07 UTC">
+      <class name="com.guru99.tests.LoginPageTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.tests.LoginPageTests@20322d26]" name="setup" is-config="true" duration-ms="6671" started-at="2021-01-27T06:39:57 UTC" finished-at="2021-01-27T06:40:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.tests.LoginPageTests@20322d26]" name="verifyLogin" duration-ms="2391" started-at="2021-01-27T06:40:04 UTC" finished-at="2021-01-27T06:40:06 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr305770]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ysanEzY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.guru99.tests.LoginPageTests@20322d26]" name="cleanUp" is-config="true" duration-ms="1195" started-at="2021-01-27T06:40:06 UTC" finished-at="2021-01-27T06:40:07 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.guru99.tests.LoginPageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

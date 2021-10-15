@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-26T17:39:41 GMT" name="Suite" finished-at="2021-01-26T17:39:53 GMT" duration-ms="12048">
+  <suite name="Suite" duration-ms="7865" started-at="2021-10-15T10:12:35 UTC" finished-at="2021-10-15T10:12:43 UTC">
     <groups>
     </groups>
-    <test started-at="2021-01-26T17:39:41 GMT" name="Test" finished-at="2021-01-26T17:39:53 GMT" duration-ms="12048">
+    <test name="Test" duration-ms="7865" started-at="2021-10-15T10:12:35 UTC" finished-at="2021-10-15T10:12:43 UTC">
       <class name="com.guru99.tests.LoginPageTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.tests.LoginPageTests@762ef0ea]" started-at="2021-01-26T17:39:41 GMT" name="setup" finished-at="2021-01-26T17:39:47 GMT" duration-ms="6482" status="PASS">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.tests.LoginPageTests@68bbe345]" name="setup" is-config="true" duration-ms="6154" started-at="2021-10-15T10:12:35 UTC" finished-at="2021-10-15T10:12:41 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.tests.LoginPageTests@762ef0ea]" started-at="2021-01-26T17:39:47 GMT" name="verifyLogin" finished-at="2021-01-26T17:39:52 GMT" duration-ms="4672" status="PASS">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.tests.LoginPageTests@68bbe345]" name="verifyLogin" duration-ms="630" started-at="2021-10-15T10:12:41 UTC" finished-at="2021-10-15T10:12:42 UTC">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr305770]]>
+                <![CDATA[mngr359489]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[ysanEzY]]>
+                <![CDATA[arAsAmE]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.guru99.tests.LoginPageTests@762ef0ea]" started-at="2021-01-26T17:39:52 GMT" name="cleanUp" finished-at="2021-01-26T17:39:53 GMT" duration-ms="850" status="PASS">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.guru99.tests.LoginPageTests@68bbe345]" name="cleanUp" is-config="true" duration-ms="997" started-at="2021-10-15T10:12:42 UTC" finished-at="2021-10-15T10:12:43 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
